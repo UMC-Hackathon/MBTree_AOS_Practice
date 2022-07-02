@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/82104/MBTree/MBTree_Android/app/src/main/res/layout/activity_after_login.xml" value="0.33" />
+        <entry key="..\:/Users/82104/MBTree/MBTree_Android/app/src/main/res/layout/activity_afterlogin.xml" value="0.2515625" />
         <entry key="..\:/Users/82104/MBTree/MBTree_Android/app/src/main/res/layout/activity_login.xml" value="0.1606962663975782" />
         <entry key="..\:/Users/82104/MBTree/MBTree_Android/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>

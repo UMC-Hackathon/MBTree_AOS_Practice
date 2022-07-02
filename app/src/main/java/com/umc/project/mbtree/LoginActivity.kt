@@ -20,8 +20,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         val keyHash = Utility.getKeyHash(this)//onCreate 안에 입력해주자
         Log.d("Hash", keyHash)
+
+
 
         // 로그인 정보 확인
         UserApiClient.instance.accessTokenInfo { tokenInfo, error ->
@@ -67,9 +70,10 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             }
+
             else if (token != null) {
                 Toast.makeText(this, "로그인에 성공하였습니다.", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, AfterLoginActivity::class.java)
                 startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
                 finish()
             }
@@ -84,8 +88,22 @@ class LoginActivity : AppCompatActivity() {
         }
 
 
+
+
+
+
+//        // 카카오톡으로 로그인
+//        UserApiClient.instance.loginWithKakaoTalk(context) { token, error ->
+//            if (error != null) {
+//                Log.d("TAG", "로그인 실패", error)
+//            }
+//            else if (token != null) {
+//                Log.d("TAG", "로그인 성공 ${token.accessToken}")
+//            }
+//        }
+
+
+
+
     }
-
-
-
 }
