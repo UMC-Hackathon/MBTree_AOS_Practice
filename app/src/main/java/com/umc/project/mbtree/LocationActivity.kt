@@ -34,13 +34,13 @@ class LocationActivity : AppCompatActivity() {
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
             locationManager!!.requestLocationUpdates(
-                LocationManager.NETWORK_PROVIDER,
+                LocationManager.GPS_PROVIDER,
                 10,
                 0f,
                 LocationListner()
             )
         }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000,0f,LocationListner())
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1000,0f,LocationListner())
     }
 
     internal inner class LocationListner : LocationListener {

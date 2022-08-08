@@ -12,6 +12,8 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.kakao.sdk.user.UserApiClient
 
+// 내가 구현하고 싶은 코드를 추가함
+
 class AfterLoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
