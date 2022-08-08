@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479150024482",
+    "project_id": "mbtree-7a9b6",
+    "storage_bucket": "mbtree-7a9b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479150024482:android:5913d300515a08e031a77b",
+        "android_client_info": {
+          "package_name": "com.umc.project.mbtree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479150024482-s1ef07pjscklju3cd5uvjci4j917ute9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1YTQIMNFcZ9LFJ4tHwPorEjimPIECCKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479150024482-s1ef07pjscklju3cd5uvjci4j917ute9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

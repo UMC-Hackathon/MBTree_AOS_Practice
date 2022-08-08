@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/work/UMC/mbtree/app/src/main/res/drawable/custom_chat_me.xml" value="0.2305" />
         <entry key="..\:/work/UMC/mbtree/app/src/main/res/drawable/dialog_round.xml" value="0.147" />
+        <entry key="..\:/work/UMC/mbtree/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/work/UMC/mbtree/app/src/main/res/layout/activity_letter.xml" value="0.2484375" />
         <entry key="..\:/work/UMC/mbtree/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/work/UMC/mbtree/app/src/main/res/layout/custom_dialog.xml" value="0.2453125" />
+        <entry key="..\:/work/UMC/mbtree/app/src/main/res/layout/item_my_chat.xml" value="0.4" />
       </map>
     </option>
   </component>

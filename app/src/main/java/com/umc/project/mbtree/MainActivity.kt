@@ -11,11 +11,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import com.umc.project.mbtree.api.RetrofitInterface
 import com.umc.project.mbtree.api.getRetrofit
-import com.umc.project.mbtree.databinding.ActivityLetterBinding
 import com.umc.project.mbtree.databinding.ActivityMainBinding
 import com.umc.project.mbtree.dto.Post
 import retrofit2.Call
@@ -25,9 +23,11 @@ class MainActivity : AppCompatActivity() {
 
     var TAG: String = "MainActivity"
     lateinit var binding: ActivityMainBinding
+
     private lateinit var getResult: ActivityResultLauncher<Intent>
     private var curX:Float = 0.0F
     private var curY:Float = 0.0F
+    // PR연습
 
     val resultLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ result->
@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("레트로핏 테스트", "레트로핏 연결")
         getPosts()
 
+        //나무에 열매달기
         binding.touchView.setOnTouchListener(object: View.OnTouchListener{
             override fun onTouch(p0: View?, p1: MotionEvent?): Boolean {
                 curX = p1!!.x
