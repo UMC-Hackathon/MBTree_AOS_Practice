@@ -169,6 +169,7 @@ class LocationActivity : AppCompatActivity() {
                     ).show()
                     finish()
                 } else {
+
                     Toast.makeText(this, "권한 설정이 거부되었습니다.\n설정에서 권한을 허용해야 합니다..", Toast.LENGTH_SHORT)
                         .show()
                 }
